@@ -1,0 +1,80 @@
+/*
+	Theme Name: Sleek Child
+	Theme URI: http://themeforest.net/item/sleek-responsive-creative-wordpress-blog-theme/9298728
+	Template: sleek
+	Version: 1.0
+	Description: Child Theme for Sleek
+	Author: korra.io
+	Author URI: http://korra.io/
+	Text Domain: sleek
+*/
+
+/*------------------------------------------------------------
+ * Theme customization starts here
+ *------------------------------------------------------------*/
+
+/***
+* Home
+* **/
+
+.three-column-links .home-image-link {
+  cursor: pointer;
+}
+
+.sleek-blog--style-newspaper {
+  background: #fff
+}
+
+.three-column-links a {
+  color: #000;
+}
+
+.three-column-links a span {
+  color: #ff4d4d;
+}
+
+.three-column-links div.column--1-3:hover a span {
+  color: #d23636;
+}
+
+.three-column-links .home-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 160px;
+}
+
+.three-column-links .home-image-one {
+  background-image: url("http://ec2-54-190-5-73.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/10/hall-book.jpg"); 
+}
+
+.three-column-links .home-image-two {
+  background-image: url("http://ec2-54-190-5-73.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/10/Gardners-Dante-pressed-flowers.jpg");
+}
+
+.three-column-links .home-image-three {
+  background-image: url("http://ec2-54-190-5-73.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/10/wyman-glass.jpg");
+}
+
+/***
+* Fonts
+***/
+
+body {
+  font-size: 18px;
+}
+
+/***
+* Widget styles
+***/
+
+.network-visualization-image img {
+  width: 100%;
+}
+
+.network-visualization-text {
+  font-size: 21px;
+  color: #fff;
+  font-weight: 400;
+  padding-top: 26px;
+}
