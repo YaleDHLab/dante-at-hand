@@ -34,10 +34,10 @@
 
         <!-- Remixing -->
         <div class="column--1-3 home-image-link">
-          <a href="./index.php/category/remixing">
+          <a href="./index.php/category/transfiguring">
             <div alt="" class="aligncenter wp-image-3253 size-full home-image home-image-three" height="63"
             width="60"></div>
-           <span class="custom-heading" style="text-align: center;">REMIXING</span>
+           <span class="custom-heading" style="text-align: center;">TRANSFIGURING</span>
             <p></p>
             <p style="text-align: center;">Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod et dolore magna

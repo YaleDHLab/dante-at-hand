@@ -64,6 +64,22 @@ body {
   font-size: 18px;
 }
 
+h1, .h1 {
+  text-transform: uppercase
+}
+
+.title-header .title-header__inwrap h1 .above {
+  display: none;
+}
+
+/***
+* Masonry styles
+***/
+
+.sleek-touchscreen--false .loop-container.loop-container--style-masonry .post__inwrap:before, .sleek-touchscreen--false .loop-container.loop-container--style-newspaper .post__inwrap:before, .sleek-touchscreen--false .loop-container.loop-container--related .post__inwrap:before {
+  background: #a5a5a5;
+}
+
 /***
 * Widget styles
 ***/
@@ -77,4 +93,25 @@ body {
   color: #fff;
   font-weight: 400;
   padding-top: 26px;
+}
+
+/***
+* Branding
+***/
+
+.dhlab-logo {
+  width: 60px;
+  position: relative;
+  left: 50%;
+  margin-left: -30px;
+}
+
+/***
+* Small devices
+***/
+
+@media(max-width: 768px) {
+  .sleek-blog--style-newspaper {
+    display: none;
+  }
 }

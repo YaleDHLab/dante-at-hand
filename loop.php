@@ -44,16 +44,27 @@
     full-column width posts -->
     <?php if( !is_home() ){
 
+      // run two loops -- one to fetch posts with category featured
+      // then another to fetch posts without the category featured
       while (have_posts()) : the_post();
-
-        // if this is a non-category page, fetch all items
-        if( !is_category() ) {
+        if( has_category('Featured') ) {
           get_template_part( 'loop_item', $display_style );
         }
+      endwhile;
 
-        // else this is a category page 
-        else {
-          get_template_part( 'loop_item', $display_style );
+      // non-featured loop
+      while (have_posts()) : the_post();
+        if( !has_category('Featured') ) {
+
+          // if this is a non-category page, fetch all items
+          if( !is_category() ) {
+            get_template_part( 'loop_item', $display_style );
+          }
+
+          // else this is a category page 
+          else {
+            get_template_part( 'loop_item', $display_style );
+          }
         }
       endwhile;
     };?>
