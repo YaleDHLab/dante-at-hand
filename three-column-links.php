@@ -6,9 +6,9 @@
         
         <!-- Link to Reading -->
         <div class="column--1-3 home-image-link">
-          <div class="aligncenter wp-image-3258 size-full home-image home-image-one" height="63"
-          width="60"></div>
           <a href="./index.php/category/reading/">
+            <div class="aligncenter wp-image-3258 size-full home-image home-image-one" height="63"
+          width="60"></div>
             <span class="custom-heading" style="text-align: center;">READING</span>
             <p></p>
             <p style="text-align: center;">Lorem ipsum dolor sit amet,
@@ -20,9 +20,9 @@
 
         <!-- Annotating -->
         <div class="column--1-3 home-image-link">
-          <div alt="" class="aligncenter wp-image-3257 size-full home-image home-image-two" height="63"
-              width="60"></div>
           <a href="./index.php/category/annotating/">
+            <div alt="" class="aligncenter wp-image-3257 size-full home-image home-image-two" height="63"
+              width="60"></div>
             <span class="custom-heading" style="text-align: center;">ANNOTATING</span>
             <p></p>
             <p style="text-align: center;">Lorem ipsum dolor sit amet,
@@ -34,10 +34,10 @@
 
         <!-- Remixing -->
         <div class="column--1-3 home-image-link">
-          <div alt="" class="aligncenter wp-image-3253 size-full home-image home-image-three" height="63"
+          <a href="./index.php/category/transfiguring">
+            <div alt="" class="aligncenter wp-image-3253 size-full home-image home-image-three" height="63"
             width="60"></div>
-          <a href="./index.php/category/remixing">
-            <span class="custom-heading" style="text-align: center;">REMIXING</span>
+           <span class="custom-heading" style="text-align: center;">TRANSFIGURING</span>
             <p></p>
             <p style="text-align: center;">Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod et dolore magna
